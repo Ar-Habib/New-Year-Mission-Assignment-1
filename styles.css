@@ -116,4 +116,45 @@ img{
     width: 70%;
 }
 
+/* subscription -section style */
+
+.subscribe-section{
+    height:600px; 
+    margin: 30 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mail-pic{
+    height:150px;
+}
+.subscription-title{
+font-size: 48px;
+font-weight: 900;
+}
+.subcription-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.input-group{
+    margin-top: 20px;
+}
+.input-group>input{
+    padding:24px;
+}
+.input-mail{
+    border: none;
+border-radius: 50px 0px 0px 50px;
+}
+.input-button{
+    border:none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #f00;
+}
+
 
