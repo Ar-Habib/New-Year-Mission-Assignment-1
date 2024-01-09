@@ -3,7 +3,7 @@
     margin:0px;
 }
 
-body> section{
+body> section, .footer-part{
 margin: 50px 140px;
 }
 /* Banner section style*/
@@ -157,4 +157,62 @@ border-radius: 50px 0px 0px 50px;
     background-color: #f00;
 }
 
+/* Footer part style */
 
+
+footer{
+    background-color: #070211;
+    height:600px;
+    text-align: center;
+}
+.address{
+   
+    margin-top: 40px;
+}
+.address-part{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phone-website img{
+    width:24px;
+    height:24px;
+    color: #fff;
+
+}
+.phone-website{
+    margin-top: 40px;
+}
+
+span{
+    color: #fff;
+}
+.address-details{
+    color:#fff
+}
+ hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .logo-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #fff;
+
+ }
+ .logo-part>div>img{
+    width: 64px;
+    height:64px;
+ }
+
+ .copyright-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 120px;
+ }
+ .copyright-part>p{
+    color: #fff;
+ }
