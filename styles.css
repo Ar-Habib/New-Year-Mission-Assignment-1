@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body> section{
+margin: 50px 140px;
+}
+/* Banner section style*/
+
+.banner{
+  
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/bannerimg.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading{
+    color: #fff;
+    font-family: Merriweather;
+    width: 50%;
+}
+.banner-heading>h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-heading>h1{
+    font-size: 72px;
+    font-weight: 900;
+}
