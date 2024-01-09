@@ -87,3 +87,33 @@ img{
     margin-left:50px;
     width:50%;
 }
+
+
+/* portfolio section style */
+.product-pic{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-pic>img{
+    width:424px;
+    height:450px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.portfolio-title{
+    color:#f00;
+    font-size: 24;
+}
+.portfolio-heading{
+    color:#070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    width: 70%;
+}
+
+
