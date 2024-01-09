@@ -32,3 +32,25 @@ margin: 50px 140px;
     font-size: 72px;
     font-weight: 900;
 }
+
+/* offer section style */
+.offer{
+    text-align: center;
+}
+.offer-quantity{
+    color:#f00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.offer-tittle{
+    color:#f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-heading{
+    font-size: 48;
+    font-weight: 700;
+}
+img{
+    height:500px;
+}
